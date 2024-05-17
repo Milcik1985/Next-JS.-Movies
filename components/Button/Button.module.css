@@ -1,0 +1,15 @@
+.btn {
+  width: 9rem;
+  border: 2px solid rgb(140, 138, 138);
+  border-radius: 7px;
+  padding: 0.8rem;
+  background-color: rgb(73, 73, 73);
+  font-weight: bold;
+  color: black;
+}
+
+.warning {
+  background-color: red;
+  color: black;
+  font-weight: bold;
+}

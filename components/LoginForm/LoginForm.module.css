@@ -1,0 +1,54 @@
+.inputWrapper {
+  margin-top: 7rem;
+  padding: 2rem;
+  width: 45%;
+  height: 17rem;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+  position: relative;
+  border: 2px solid white;
+  border-radius: 10px;
+  overflow: hidden;
+  position: relative;
+}
+
+.blurBackground {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  backdrop-filter: blur(4px);
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  position: relative;
+  z-index: 1;
+  padding: 20px;
+}
+
+.btn {
+  width: 25%;
+  padding: 0.1rem;
+}
+
+.input {
+  padding: 0.8rem;
+  width: 65%;
+}
+
+.errorMessage {
+  color: red;
+}
+
+.p {
+  color: rgb(194, 190, 190);
+  font-weight: bold;
+  font-size: 2rem;
+}

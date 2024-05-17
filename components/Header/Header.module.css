@@ -1,0 +1,25 @@
+.main {
+  position: relative;
+  padding: 1.5rem;
+  background-color: rgba(255, 165, 0, 0.5);
+  height: 12rem;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+.links {
+  display: flex;
+  gap: 2rem;
+  justify-content: left;
+  color: black;
+  font-weight: bold;
+  font-size: 1.5rem;
+  justify-content: space-evenly;
+}
+
+.headerName {
+  text-align: center;
+  font-size: 2rem;
+  color: black;
+}

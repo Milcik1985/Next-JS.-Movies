@@ -1,0 +1,59 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  background: url("../../assets/film-3057394_640.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100vh;
+  margin: 0;
+}
+
+.validBtn {
+  background-color: yellowgreen;
+  color: black;
+  transition: 0.3s;
+}
+
+.invalidBtn {
+  background-color: red;
+  color: black;
+  cursor: not-allowed;
+}
+
+.container {
+  position: relative;
+  border-radius: 8px;
+  overflow: hidden;
+  border: 2px solid white;
+  text-align: center;
+  width: 35rem;
+  height: 40vh;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 3rem;
+}
+
+.blurBackground {
+  padding: 2rem;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  backdrop-filter: blur(4px);
+}
+
+.content {
+  position: relative;
+  z-index: 1;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+}
+
+.content input {
+  padding: 0.5rem;
+  width: 60%;
+}

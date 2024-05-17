@@ -1,0 +1,13 @@
+.cardWrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  height: 75%;
+  margin: 1rem;
+  padding: 2rem;
+  justify-content: center;
+}
+
+.content h2 {
+  font-size: 2rem;
+}
